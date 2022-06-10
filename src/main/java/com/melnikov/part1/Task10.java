@@ -1,6 +1,6 @@
 package com.melnikov.part1;
 
-import com.melnikov.utills.JOptionPaneIntegerInputValidator;
+import com.melnikov.utils.JOptionPaneIntegerInputValidator;
 
 public class Task10 {
     public static void main(String[] args) {

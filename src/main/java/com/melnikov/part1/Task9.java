@@ -1,6 +1,6 @@
 package com.melnikov.part1;
 
-import com.melnikov.utills.JOptionPaneIntegerInputValidator;
+import com.melnikov.utils.JOptionPaneIntegerInputValidator;
 
 import javax.swing.*;
 
