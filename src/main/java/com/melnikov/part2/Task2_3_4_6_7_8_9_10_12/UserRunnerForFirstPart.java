@@ -1,4 +1,4 @@
-package com.melnikov.part2.Task2_3_4_7_8_9_10_12;
+package com.melnikov.part2.Task2_3_4_6_7_8_9_10_12;
 
 public class UserRunnerForFirstPart {
     public static void main(String[] args) {

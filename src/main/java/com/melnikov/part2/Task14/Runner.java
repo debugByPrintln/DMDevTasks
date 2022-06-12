@@ -5,7 +5,7 @@ public class Runner {
         //First part
         go(100);
 
-        //Second part (Sorry, no recursion)
+        //Second part (No recursion)
         int p2 = 1539;
         int c = (int) Math.ceil(Math.log10(p2));
         int d = (int) Math.ceil(Math.log10(p2));
@@ -21,16 +21,14 @@ public class Runner {
     private static void go(int i){
         int x = 1;
 
-// блок try проверяет, достигли ли мы нуля
         try {
-            int m = x / i;				// здесь выбрасывается исключение при i = 0
+            int m = x / i;
             System.out.println(i);
             i--;
-            go(i);				// а вот и рекурсивный вызов
+            go(i);
         }
         catch(ArithmeticException e) {
-            // деление на нуль выбрасывает ArithmeticException
-            return;					// Останавливается при попытке деления на нуль
+            return;
         }
     }
 
