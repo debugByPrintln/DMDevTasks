@@ -1,6 +1,6 @@
-package com.melnikov.part2.Task2_3_4;
+package com.melnikov.part2.Task2_3_4_7_8_9_10_12;
 
-public class User {
+public abstract class User implements PrintData{
     private int id;
     private String login;
     private String password;
@@ -10,6 +10,8 @@ public class User {
         this.login = login;
         this.password = password;
     }
+
+    public abstract void printData();
 
     public int getId() {
         return id;

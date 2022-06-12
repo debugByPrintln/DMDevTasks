@@ -1,6 +1,6 @@
-package com.melnikov.part2.Task2_3_4;
+package com.melnikov.part2.Task2_3_4_7_8_9_10_12;
 
-public class UserRunner {
+public class UserRunnerForFirstPart {
     public static void main(String[] args) {
         //Task 2
 //        User user1 = new User(1, "Leha", "12345");
@@ -20,5 +20,19 @@ public class UserRunner {
 //        User user = new User(1, "Leha", "12345");
 //
 //        int i = user.id; //<-- error;
+
+        //Task 10
+        User user = new User(1, "Leha", "12345") {
+            private int id;
+            private String login;
+            private String password;
+
+            @Override
+            public void printData() {
+                System.out.println(id + " " + login + " " + password);
+            }
+        };
+
+        user.printData();
     }
 }
